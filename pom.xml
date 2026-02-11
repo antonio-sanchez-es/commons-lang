@@ -60,6 +60,14 @@
   </scm>
   <!-- Lang should depend on very little -->
   <dependencies>
+
+	<dependency>
+	    <groupId>org.junit.jupiter</groupId>
+	    <artifactId>junit-jupiter</artifactId>
+	    <version>5.10.0</version>
+		<scope>test</scope>
+	</dependency>
+
     <!-- testing -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
